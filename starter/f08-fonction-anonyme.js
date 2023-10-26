@@ -14,7 +14,7 @@
 - Exécutez la fonction
 */
 
-// const direBonjour = () => {
+// const direBonjour = function() {
 //         console.log("Bonjour !");
 //     };
 //
@@ -35,7 +35,7 @@
 - Utilisez-la pour afficher "Bonjour !" dans la console
 */
 
-// const disBonjour = () => {
+// const disBonjour = function() {
 //     return 'Bonjour !';
 //     };
 //
@@ -58,7 +58,7 @@
 - Utilisez-la pour saluer Thomas dans la console
 */
 let message;
-const salue = (prenom) => {
+const salue = function(prenom) {
     message = `Bonjour ${prenom}`;
     return message;
 }
