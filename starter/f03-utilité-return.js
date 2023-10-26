@@ -27,10 +27,22 @@ pour le réutiliser dans une autre fonction
 
 // 1°) Créez la fonction calcule1
 
-
+let resultat1;
+let resultat2;
+function calcule1() {
+    resultat1 = 2 + 3;
+    console.log("Dans calcule1 : resultat1 = " + resultat1);
+    return resultat1;
+}
 
 // 2°) Créez la fonction calcule2
 
-
+function calcule2() {
+    resultat2 = resultat1 * 2;
+    console.log("Dans calcule2 : resultat2 = " + resultat2);
+}
 
 // 3°) Appelez les fonctions calcule1() et calcule2() pour exécuter les calculs et afficher les résultats dans la console
+
+calcule1();
+calcule2();
