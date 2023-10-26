@@ -14,6 +14,12 @@
 - Exécutez la fonction
 */
 
+// const direBonjour = () => {
+//         console.log("Bonjour !");
+//     };
+//
+// direBonjour();
+
 // Expression de fonction sans paramètre ni return
 
 
@@ -28,6 +34,12 @@
   la fonction disBonjour qui retourne la chaîne "Bonjour !"
 - Utilisez-la pour afficher "Bonjour !" dans la console
 */
+
+// const disBonjour = () => {
+//     return 'Bonjour !';
+//     };
+//
+// console.log(disBonjour());
 
 // Expression de fonction sans paramètre mais avec return
 ;
@@ -45,6 +57,13 @@
    - retourne ce message
 - Utilisez-la pour saluer Thomas dans la console
 */
+let message;
+const salue = (prenom) => {
+    message = `Bonjour ${prenom}`;
+    return message;
+}
+
+console.log(salue("Thomas"));
 
 // Expression de fonction avec paramètre et return
 
