@@ -22,8 +22,11 @@
 
 // Utilisation de la fonction pour saluer Thomas dans la console
 
+const saluer = (prenom) => {
+    console.log(`Salut ${prenom} !`);
+};
 
-
+saluer('Thomas');
 /*
 N.B. Dans certains cas particuliers, on peut simplifier la syntaxe des fonctions fléchées :
 - Quand le corps de la fonction se limite à une seule ligne,
@@ -39,6 +42,9 @@ N.B. Dans certains cas particuliers, on peut simplifier la syntaxe des fonctions
 
 // Fonction anonyme avec la syntaxe simplifiée
 
+const salue = (prenom) => {console.log(`Salut ${prenom} !`);};
 
 // Utilisation de la fonction pour saluer Thomas dans la console
+
+salue("Thomas");
 
