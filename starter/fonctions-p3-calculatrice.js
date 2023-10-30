@@ -14,6 +14,19 @@ Aide : votre fonction s'exécute avec le pattern suivant : calculer(nb1, "+", nb
 
 // Déclaration de la fonction calculer
 
+function calculer(nb1, operator, nb2) {
+    switch (operator) {
+        case "+":
+            return nb1 + nb2;
+        case "-":
+            return nb1 - nb2;
+        case "*":
+            return nb1 * nb2;
+        case "/":
+            return nb1 / nb2;
+    }
+}
 
+console.log(calculer(2, "*", 0));
 // Utilisation de la fonction calculer
 
